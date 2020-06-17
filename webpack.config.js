@@ -48,7 +48,6 @@ const commonConfig = {
     path: PATH.resolve(__dirname, 'build'),
   }
 }
-const env = process.env;
 module.exports = (env) => {
   if (env && env.production) {
     return merge(prodConfig, commonConfig)
