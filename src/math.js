@@ -7,3 +7,7 @@ export const minus = () => {
    console.log(a - b);
    return(a - b)
 }
+
+export const newMacTest = () => {
+  console.log('fine');
+}
